@@ -1,0 +1,46 @@
+.reg-button {
+  color: white;
+  background-color: #009465;
+  width: 218px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+
+  &:hover {
+  transition: 0.2s;
+  background-color: #066C4C;
+  cursor: pointer;
+  }
+
+  &_pos_header {
+    @media screen and (max-width: 1030px) {
+    width: 184px;
+    height: 44px;
+    }
+  }
+
+  @media screen and (max-width: 475px) {
+    width: 140px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+
+  &_pos_popup {
+    margin-top: 253px;
+
+    @media screen and (max-width: 1030px) {
+      margin-top: 233px;
+    }
+
+    @media screen and (max-width: 500px) {
+      margin-top: 133px;
+    }
+  }
+  
+}
+

@@ -1,0 +1,22 @@
+.team {
+  background-color: #5036E6;
+  padding-top: 80px;
+  padding-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  outline: 0;
+
+  @media screen and (max-width: 1030px) {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  @media screen and (max-width: 475px) {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+}
+
+
+

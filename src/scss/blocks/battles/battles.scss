@@ -1,0 +1,38 @@
+@import '../../mixins/mixins';
+
+.battles {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 294px;
+
+  @media screen and (max-width: 1030px) {
+    padding-top: 50px;
+    padding-bottom: 324px;
+  }
+
+  @media screen and (max-width: 475px) {
+      padding-top: 20px;
+      padding-bottom: 188px;
+  }
+
+  &__circles-container {
+    @include background(url(../images/easy03semi-circle-battles1.png));
+    width: 440px;
+    height: 220px;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+
+    @media screen and (max-width: 1030px) {
+      background-image: url(../images/easy03semi-circle-battles2.png);
+      left: 0;
+      width: 220px;
+    }
+  
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
+  }
+}
+

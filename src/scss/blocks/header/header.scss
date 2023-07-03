@@ -1,0 +1,63 @@
+@import '../../mixins/mixins';
+
+.header {
+  padding: 30px 0px 72px 0px;
+  max-height: 48px;
+  width: calc(100% - 320px);
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 50px;
+  margin: auto;
+
+  @media screen and (max-width: 1030px) {
+    width: calc(100% - 100px);
+    column-gap: 30px;
+    padding: 30px 0px 66px 0px;
+  }
+
+  @media screen and (max-width: 475px) {
+    width: calc(100% - 40px);
+    padding: 19px 0px 53px 0px;
+  }
+
+  &__link-container {
+    width: 154px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+
+    @media screen and (max-width: 1030px) {
+      width: 135px;
+    }
+  
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+  }
+
+  &__club-link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16.5px;
+
+    @media screen and (max-width: 1030px) {
+      font-size: 13px;
+      max-width: 135px;
+    }
+  }
+  
+  &__arrow-icon {
+    width: 10px;
+    height: 12px;
+    @include background(url(../images/easy03-headerArrow.svg));
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    box-sizing: border-box;
+  }
+}
+  
+
+

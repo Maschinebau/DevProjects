@@ -1,0 +1,54 @@
+@import '../../mixins/mixins';
+
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 171px;
+  padding-left: 760px;
+  background-color: #5036E6;
+  outline: 0;
+  
+  @media screen and (max-width: 1080px) {
+    padding-bottom: 121px;
+    padding-left: 240px;
+  }
+
+  @media screen and (max-width: 600px) {
+      padding-bottom: 200px;
+      padding-left: 50px;
+  }
+
+  @media screen and (max-width: 475px) {
+      padding-bottom: 200px;
+      padding-left: 20px;
+  }
+
+  &__circles-container {
+    @include background(url(../images/easy03circlesjoin.png));
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 660px;
+    height: 440px;
+    top: 0px;
+    left: 0px;
+  
+    @media screen and (max-width: 1080px) {
+      @include background(url(../images/easy03semi-circle-join.png));
+      width: 180px;
+      height: 360px;
+    }
+  
+    @media screen and (max-width: 600px) {
+        @include background(url(../images/easy03green-circle-joypng.png));
+        width: 280px;
+        height: 140px;
+        top: auto;
+        left: 0;
+        right: 0;
+        margin: 0 auto 0 auto;
+        bottom: 0;
+    }
+  }
+}
+

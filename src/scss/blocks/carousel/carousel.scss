@@ -1,0 +1,88 @@
+.carousel {
+  display: flex;
+  flex-direction: row;
+  column-gap: 80px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  transition: all 1s;
+
+  &::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  }
+
+  @media screen and (max-width: 1080px) {
+      column-gap: 28px;
+  }
+
+  @media screen and (max-width: 325px) {
+      overflow: hidden;
+      white-space: nowrap;
+  }
+
+  &__img {
+    width: 320px;
+    height: 320px;
+    object-position: center;
+    object-fit: contain;
+    border-radius: 15px;
+    background-color: transparent;
+    overflow: hidden;
+    
+    @media screen and (max-width: 475px) {
+      width: 280px;
+      height: 280px;
+    }
+  }
+
+  &__item {
+    display: block;
+    transition: all 0.2ms;
+
+    @media (max-width: 325px) {
+      display: none;
+    }
+
+    &-active {
+      display: block;
+    }
+  }
+
+  &__nav-dot {
+    visibility: hidden;
+    opacity: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #FFFFFF33;
+    border-radius: 50%;
+
+    @media screen and (max-width: 325px) {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    &_active {
+      background-color: #FFFFFF;
+    }
+  }
+
+  &__dots-container {
+  position: absolute;
+  display: flex;
+  column-gap: 10px;
+  width: 44px;
+  height: 8px;
+
+    &_pos_team {
+      bottom: 60px;
+      left: 138px;
+    }
+
+    &_pos_battles {
+      bottom: 150px;
+      left: 138px;
+    }
+  }
+}
+
+

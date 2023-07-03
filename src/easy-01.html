@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Osipov Alexander" content="24 cohort">
+  <link rel="icon" href="<%=require('./images/easy01favicon1.png')%>" type="image/x-icon">
+  <title>Правильные шахматы</title>
+</head>
+<body class="body">
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo logo_pos_header"></div>
+    <a class="header__link-container" href="*" aria-label="вступайтен в клуб">
+      <p class="header__club-link">Вступайте в клуб</p>
+      <div class="header__arrow-icon"></div>
+    </a>
+    <button class="reg-button reg-button_pos_header" type="button" aria-label="зарегистрироваться">Зарегистрироваться</button>
+  </header>
+  <!-- CONTENT -->
+  <main class="content"> 
+    <!-- TRUE CHESS -->
+    <section class=" section true-chess">
+      <a class="true-chess__club-link" href="*" aria-label="Клуб">КЛУБ</a>
+      <h1 class="title title_pos_true-chess">Правильные шахматы</h1>
+      <p class="text text_pos_true-chess">Приходите к нам, играть в шахматы! Сразитесь в классическом поединке, блиц состязании и бою с гройсмейстером.</p>
+      <div class="chess-square chess-square_pos_true-chess"></div>
+      <div class="true-chess__circles-container"></div>
+    </section>
+    <!-- TEAM -->
+    <section class="section team">
+      <h1 class="title title_pos_team">Наша команда</h1>
+      <p class="text text_pos_team">Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними играть — одно удовольствие!</p>
+      <div class="carousel carousel-team">
+        <div class="carousel__item carousel__item-active">
+          <img class="carousel__img" src="<%=require('./images/easy03-ANDRimg.jpg')%>" alt="Андрей">
+          <h2 class="subtitle subtitle_pos_team">АНДРЕЙ</h2>
+          <p class="text text_pos_team-card">Шахматист, писатель.</p>
+        </div>
+        <div class="carousel__item">
+          <img class="carousel__img" src="<%=require('./images/easy03NIKITA.jpg')%>" alt="Никита">
+          <h2 class="subtitle subtitle_pos_team">НИКИТА</h2>
+          <p class="text text_pos_team-card">Шахматист, кулинар.</p>
+        </div>
+        <div class="carousel__item">
+          <img class="carousel__img" src="<%=require('./images/easy03ALEX.jpg')%>" alt="Алексей">
+          <h2 class="subtitle subtitle_pos_team">АЛЕКСЕЙ</h2>
+          <p class="text text_pos_team-card">Шахматист, геймер.</p>
+        </div>
+        <div class="carousel__dots-container carousel__dots-container_pos_team">
+          <span class="carousel__nav-dot carousel__nav-dot_active"></span>
+          <span class="carousel__nav-dot"></span>
+          <span class="carousel__nav-dot"></span>
+        </div>
+      </div>
+
+    </section>
+    <!-- JOIN -->
+    <section class="section join">
+      <h1 class="title title_pos_join">Хочешь в команду?</h1>
+      <p class="text text_pos_join">Свяжись с нами и мы обсудим все детали присоединения к команде.</p>
+      <div class="join__circles-container"></div>
+    </section>
+    <!-- BATTLES -->
+    <section class="section battles">
+      <h1 class="title title_pos_battles">Сражения</h1>
+      <p class="text text_pos_battles">Сражайтесь в парах и приятно проводите время. Если хотите прокачать свои навыки — сыграйте с нашими шахматистами.</p>
+      <div class="carousel carousel_pos_battles">
+        <div class="carousel__item carousel__item-active">
+          <img class="carousel__img" src="<%=require('./images/easy03battles-img.jpg')%>" alt="Игра в шахматы">
+        </div>
+        <div class="carousel__item">
+          <img class="carousel__img" src="<%=require('./images/easy03battles-img2.jpg')%>" alt="Стол с шахматами">
+        </div>
+        <div class="carousel__item">
+          <img class="carousel__img" src="<%=require('./images/easy03battles-img3.jpg')%>" alt="Стол с шахматами">
+        </div>
+        <div class="carousel__dots-container carousel__dots-container_pos_battles">
+          <span class="carousel__nav-dot carousel__nav-dot_active"></span>
+          <span class="carousel__nav-dot"></span>
+          <span class="carousel__nav-dot"></span>
+        </div>
+      </div>
+      <div class="chess-square chess-square_pos_battles"></div>
+      <div class="battles__circles-container"></div>
+
+    </section>
+    
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="logo logo_pos_footer"></div>
+    <button class="reg-button reg-button_pos_footer" type="button" aria-label="зарегистрироваться">Зарегистрироваться</button>
+    <P class="text text_pos_footer">Шахматный клуб в Москве.</P>
+    <p class="footer__copyright">© Chees Club.</p>
+  </footer>
+  <!-- POPUP TYPE REG -->
+  <div class="popup popup_type_reg">
+    <div class="popup__container">
+      <div class="logo logo_pos_reg-popup"></div> 
+      <form class="popup__form" action="">
+        <h1 class="title title_pos_reg-popup">Регистрация</h1>
+        <fieldset class="popup__fieldset">
+          <label class="popup__input-field">
+            <input name="name" class="popup__form-input" type="text" value="" placeholder="Имя" required minlength="2" maxlength="">
+            <span class="popup__span-error"></span>
+          </label>
+          <label class="popup__input-field">
+            <input name="email" class="popup__form-input" type="email" value="" placeholder="Email" required minlength="2" maxlength="">
+            <span class="popup__span-error"></span>
+          </label>
+          <button class="reg-button reg-button_pos_popup" type="button" aria-label="зарегистрироваться">Зарегистрироваться</button>  
+        </fieldset>
+      </form>
+    </div>
+    <div class="popup__overlay"></div>
+  </div>
+</body>
+</html>
+

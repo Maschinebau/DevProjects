@@ -1,0 +1,37 @@
+.chess-square {
+  width: 416px;
+  height: 104px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  @media screen and (max-width: 475px) {
+    width: 280px;
+    height: 70px;
+  }
+
+  &_pos_true-chess {
+    background-image: url(../images/easy03BlueSquare.jpg) !important;
+  } 
+
+  &_pos_battles {
+    background-image: url(../images/easy03Green-square.jpg);
+    position: absolute;
+    right: 160px;
+    bottom: 80px;
+
+    @media screen and (max-width: 1170px) {
+      right: 50px;
+      bottom: 80px;
+    }
+  
+    @media screen and (max-width: 700px) {
+        top: auto;
+        right: 0;
+        left: 0;
+        bottom: 20px;
+        margin: auto;
+    }
+  }
+}
+
