@@ -1,0 +1,38 @@
+@font-face {
+  font-family:'Noto Sans';
+  src: 
+  url('../vendor/fonts/Noto-Sans/Noto Sans Regular.eot'),
+  url('../vendor/fonts/Noto-Sans/Noto Sans Regular.eot') format('embedded-opentype'),
+  url('../vendor/fonts/Noto-Sans/Noto Sans Regular.woff2') format('woff2'),
+  url('../vendor/fonts/Noto-Sans/Noto Sans Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-0946;
+}
+
+@font-face {
+  font-family:'Noto Sans';
+  src: 
+  url('../vendor/fonts/Noto-Sans/Noto Sans Medium.eot'),
+  url('../vendor/fonts/Noto-Sans/Noto Sans Medium.eot?#iefix') format('embedded-opentype'),
+  url('../vendor/fonts/Noto-Sans/Noto Sans Medium.woff2') format('woff2'),
+  url('../vendor/fonts/Noto-Sans/Noto Sans Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-0946;
+}
+
+@font-face {
+  font-family:'Noto Sans';
+  src: 
+  url('../vendor/fonts/Noto-Sans/Noto Sans SemiBold.eot'),
+  url('../vendor/fonts/Noto-Sans/Noto Sans SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../vendor/fonts/Noto-Sans/Noto Sans SemiBold.woff2') format('woff2'),
+  url('../vendor/fonts/Noto-Sans/Noto Sans SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-0946;
+}

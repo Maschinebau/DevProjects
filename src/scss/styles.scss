@@ -1,7 +1,7 @@
 @use 'variables';
 @use 'mixins/mixins';
 @use '../vendor/normalize';
-@use '../vendor/fonts.css';
+@use '../vendor/fonts/fonts';
 
 /* BODY */
 @use './blocks/body/body.scss';

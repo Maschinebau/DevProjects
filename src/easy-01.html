@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="Osipov Alexander" content="24 cohort">
+  <meta name="author" content="24-cohort Osipov Alex">
   <link rel="icon" href="<%=require('./images/easy01favicon1.png')%>" type="image/x-icon">
   <title>Правильные шахматы</title>
 </head>
@@ -12,7 +12,7 @@
   <!-- HEADER -->
   <header class="header">
     <div class="logo logo_pos_header"></div>
-    <a class="header__link-container" href="*" aria-label="вступайтен в клуб">
+    <a class="header__link-container" href="#" aria-label="вступайтен в клуб">
       <p class="header__club-link">Вступайте в клуб</p>
       <div class="header__arrow-icon"></div>
     </a>
@@ -22,7 +22,7 @@
   <main class="content"> 
     <!-- TRUE CHESS -->
     <section class=" section true-chess">
-      <a class="true-chess__club-link" href="*" aria-label="Клуб">КЛУБ</a>
+      <a class="true-chess__club-link" href="#" aria-label="Клуб">КЛУБ</a>
       <h1 class="title title_pos_true-chess">Правильные шахматы</h1>
       <p class="text text_pos_true-chess">Приходите к нам, играть в шахматы! Сразитесь в классическом поединке, блиц состязании и бою с гройсмейстером.</p>
       <div class="chess-square chess-square_pos_true-chess"></div>
@@ -30,7 +30,7 @@
     </section>
     <!-- TEAM -->
     <section class="section team">
-      <h1 class="title title_pos_team">Наша команда</h1>
+      <h2 class="title title_pos_team">Наша команда</h2>
       <p class="text text_pos_team">Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними играть — одно удовольствие!</p>
       <div class="carousel carousel-team">
         <div class="carousel__item carousel__item-active">
@@ -58,13 +58,13 @@
     </section>
     <!-- JOIN -->
     <section class="section join">
-      <h1 class="title title_pos_join">Хочешь в команду?</h1>
+      <h2 class="title title_pos_join">Хочешь в команду?</h2>
       <p class="text text_pos_join">Свяжись с нами и мы обсудим все детали присоединения к команде.</p>
       <div class="join__circles-container"></div>
     </section>
     <!-- BATTLES -->
     <section class="section battles">
-      <h1 class="title title_pos_battles">Сражения</h1>
+      <h2 class="title title_pos_battles">Сражения</h2>
       <p class="text text_pos_battles">Сражайтесь в парах и приятно проводите время. Если хотите прокачать свои навыки — сыграйте с нашими шахматистами.</p>
       <div class="carousel carousel_pos_battles">
         <div class="carousel__item carousel__item-active">
@@ -99,15 +99,15 @@
   <div class="popup popup_type_reg">
     <div class="popup__container">
       <div class="logo logo_pos_reg-popup"></div> 
-      <form class="popup__form" action="">
+      <form class="popup__form" action="submit">
         <h1 class="title title_pos_reg-popup">Регистрация</h1>
         <fieldset class="popup__fieldset">
           <label class="popup__input-field">
-            <input name="name" class="popup__form-input" type="text" value="" placeholder="Имя" required minlength="2" maxlength="">
+            <input name="name" class="popup__form-input" type="text" value="" placeholder="Имя" required minlength="2" maxlength="100">
             <span class="popup__span-error"></span>
           </label>
           <label class="popup__input-field">
-            <input name="email" class="popup__form-input" type="email" value="" placeholder="Email" required minlength="2" maxlength="">
+            <input name="email" class="popup__form-input" type="email" value="" placeholder="Email" required minlength="2" maxlength="100">
             <span class="popup__span-error"></span>
           </label>
           <button class="reg-button reg-button_pos_popup" type="button" aria-label="зарегистрироваться">Зарегистрироваться</button>  

@@ -39,7 +39,7 @@
     }
   }
 
-  .true-chess__circles-container {
+  &__circles-container {
     @include background(url(../images/easy03Circlebblue.png));
     position: absolute;
     width: 480px;

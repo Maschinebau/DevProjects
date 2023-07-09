@@ -8,6 +8,7 @@
   justify-content: flex-end;
   column-gap: 50px;
   margin: auto;
+  position: relative;
 
   @media screen and (max-width: 1030px) {
     width: calc(100% - 100px);
@@ -41,6 +42,8 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 16.5px;
+    padding: 0;
+    margin: 0;
 
     @media screen and (max-width: 1030px) {
       font-size: 13px;

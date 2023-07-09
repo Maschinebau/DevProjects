@@ -9,18 +9,14 @@
   &_pos_header {
     position: absolute;
     top: 26px;
-    left: 160px;
+    left: 0;
 
     @media screen and (max-width: 1030px) {
-      position: absolute;
       top: 26px;
-      left: 50px;
     }
   
     @media screen and (max-width: 475px) {
-      position: absolute;
       top: 16px;
-      left: 20px;
       width: 26px;
       height: 36px;
     }

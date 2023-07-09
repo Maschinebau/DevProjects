@@ -10,6 +10,7 @@
   transition: visibility .5s linear 0s,opacity .3s ease-in;
   visibility: hidden;
   width: 100%;
+  z-index: 2;
 
   @media screen and (max-width: 800px) {
     
