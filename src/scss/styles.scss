@@ -1,0 +1,55 @@
+@use 'variables';
+@use 'mixins/mixins';
+@use '../vendor/normalize';
+@use '../vendor/fonts/fonts';
+
+/* BODY */
+@use './blocks/body/body.scss';
+
+/* HEADER */
+@use './blocks/header/header.scss';
+
+/* CONTENT */
+@use './blocks/content/content.scss';
+
+/* SECTION */
+@use './blocks/section/section.scss';
+
+/* TRUE CHESS */
+@use './blocks/true-chess/true-chess.scss';
+
+/* TEXT */
+@use './blocks/text/text.scss';
+
+/* TITLE */
+@use './blocks/title/title.scss';
+
+/* SUBTITLE */
+@use './blocks/subtitle/subtitle.scss';
+
+/* TEAM */
+@use './blocks/team/team.scss';
+
+/* CAROUSEL */
+@use './blocks/carousel/carousel.scss';
+
+/* JOIN */
+@use './blocks/join/join.scss';
+
+/* BATTLES */
+@use './blocks/battles/battles.scss';
+
+/* FOOTER */
+@use './blocks/footer/footer.scss';
+
+/* LOGO */
+@use './blocks/logo/logo.scss';
+
+/* CHESS SQUARE */
+@use './blocks/chess-square/chess-square.scss';
+
+// POPUP
+@use './blocks/popup/popup.scss';
+
+/* REG-BUTTON */
+@use './blocks/reg-button/reg-button.scss';

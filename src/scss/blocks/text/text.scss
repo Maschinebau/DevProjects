@@ -1,0 +1,79 @@
+.text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 0px;
+  margin: 0px;
+  z-index: 1;
+
+  @media screen and (max-width: 475px) {
+    font-size: 12px;
+    line-height: 15.6px;
+  }
+
+  &_pos_battles {
+    padding-bottom: 110px;
+    max-width: 460px;
+  
+    @media screen and (max-width: 1030px) {
+      padding-bottom: 140px;
+    }
+  
+    @media screen and (max-width: 475px) {
+      padding-bottom: 60px;
+      max-width: 260px;
+    }
+  }
+
+  &_pos_footer {
+    margin-bottom: -40px;
+  
+    @media screen and (max-width: 475px) {
+      margin-bottom: -30px;
+    }
+  }
+
+  &_pos_join {
+    max-width: 400px;
+  
+    @media screen and (max-width: 475px) {
+      max-width: 280px;
+    }
+  }
+  
+  &_pos_team-card {
+    @media screen and (max-width: 475px) {
+        text-align: center;
+    }
+  }
+
+  &_pos_team {
+    padding-bottom: 110px;
+    max-width: 450px;
+  
+    @media screen and (max-width: 1030px) {
+      padding-bottom: 140px;
+    }
+  
+    @media screen and (max-width: 475px) {
+      padding-bottom: 60px;
+      max-width: 280px;
+    }
+  }
+
+  &_pos_true-chess {
+    padding: 0px 0px 182px 0px;
+    max-width: 450px;
+  
+    @media screen and (max-width: 1030px) {
+      padding: 0px 0px 212px 0px;
+    }
+  
+    @media screen and (max-width: 475px) {
+      padding: 20px 0px 110px 0px;
+      max-width: 280px;
+    }
+  }
+}
+
+

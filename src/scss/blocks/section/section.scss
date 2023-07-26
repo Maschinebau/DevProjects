@@ -1,0 +1,15 @@
+.section {
+  padding-left: 160px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+
+  @media screen and (max-width: 1030px) {
+    padding-left: 50px;
+  }
+
+  @media screen and (max-width: 475px) {
+    padding-left: 20px;
+  }
+}
+
