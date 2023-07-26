@@ -42,27 +42,6 @@ module.exports = {
         test: /\.s[ac]ss$/i,
         use: [stylesHandler, 'css-loader', 'postcss-loader', 'sass-loader']
       },
-  //     {
-  //   test: /\.s[ac]ss$/i,
-  //   use: [
-  //     stylesHandler,
-  //     {
-  //       loader: 'css-loader',
-  //     },
-  //     {
-  //       loader: 'postcss-loader',
-  //     }, 
-  //     {
-  //       loader: 'resolve-url-loader',
-  //     }, 
-  //     {
-  //       loader: 'sass-loader',
-  //       options: {
-  //         sourceMap: true,
-  //       }
-  //     }
-  //   ]
-  // },
     ]
   },
   plugins: [
