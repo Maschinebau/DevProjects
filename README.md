@@ -1,2 +1,2 @@
 # DevProjects
-Educational projects on free layouts
+Landings on free layouts
